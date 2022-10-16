@@ -11,7 +11,7 @@ public class switch_case {
         String day = "pizza";
 
         switch (day){
-            
+
             case "Monday" : System.out.println("It's a Monday");
             break;
             case "Tuesday": System.out.println("It's a Tuesday");
