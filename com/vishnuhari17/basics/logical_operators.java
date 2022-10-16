@@ -24,11 +24,11 @@ public class logical_operators {
         System.out.println("You are playing a game press q or Q to quit");
         String responce = scanner.next();
 
-        if(responce.equals("q")||responce.equals("Q")){
-            System.out.println("You quited the game");
+        if(!responce.equals("q") && !responce.equals("Q")){
+            System.out.println("You are still playing *pew pew*");
         }
         else {
-            System.out.println("You are still playing *pew pew*");
+            System.out.println("You quited the game");
         }
 
     }
